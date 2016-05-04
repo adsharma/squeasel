@@ -290,6 +290,8 @@ static struct ssl_func crypto_sw[] = {
 #endif // NO_SSL
 #endif // NO_SSL_DL
 
+#define USE_IPV6
+
 static const char *month_names[] = {
   "Jan", "Feb", "Mar", "Apr", "May", "Jun",
   "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
